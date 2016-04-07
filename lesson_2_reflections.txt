@@ -1,0 +1,7 @@
+-What happens when you initialize a repository? Why do you need to do it?
+When we initialize a repository we give the command to git that it needs to be able to track changes in that specific directory from that moment. We need to do it 
+in order to make sure we can create new commits and those commits will be saved.
+
+-How is the staging area different from the working directory and the repository? What value do you think it offers?
+It is different in that, it gives you more flexibility in terms of what "snapshot" you want to save. It doesn't force you to commit all the files in your working
+directory at the same time.
