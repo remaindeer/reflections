@@ -1,0 +1,13 @@
+Viewing the diff between the two files made it much more easier to spot the bug that was introduced because I had less mental workload than without using diff. I only had to look at a couple of lines of code rather than trying to compare the whole of the source code. Knowing that you're looking at code that has been changed and spotting the differences is much easier this way.
+
+If you have easy access to old versions of a file, you can easily go back and see where you have created a bug. Because often you find out about bugs some time after you've written them. Accidentally deleting an important part and saving it could be disastarous if you do not have access to old versions.
+
+The benefit of committing when you want to is that the changes you make are more likely to be logical and you can follow your changes much more easily. If the commits are automatic, they can be abrupt, difficult to follow and may even fail to save a version that you really want, before you turn off the editor.
+
+I think that's because Git is most often used in programming projects and in these type of projects, all the files need to be in agreement with each other to work properly. In systems like Google Docs, however, each file can be of another source and therefore there is no logical reason to treat them together by saving all of them at the same time.
+
+I can use git log to look at the general view of the files and see what direction the project has been going at. And to take a closer look between two particular files I can use git diff and see each change.
+
+If you're not afraid of making changes in your code that can break it, then you can be more bold and confident in your actions. I think that this could actually make a difference in output. You could try a new interesting feature that you think might break the whole thing, and if it doesn't work you can simply revert using checkout.
+
+I want to use git for my app project. I want people to be able to meet together.
