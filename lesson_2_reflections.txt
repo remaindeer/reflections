@@ -11,3 +11,6 @@ You can use it to make sure that if a logical change spans more than one file, a
 
 -What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 I think that branches can be really useful when the project is going in quite different directions, like testing an experimental feature or having a re-design of the interface. Branches would help keep track of all of the files in their separate histories. So that we can efficiently go back and forth between the branches and not have cross contamination.
+
+-How do the diagrams help you visualize the branch structure?
+The diagrams help me visualize the branch structure by showing me the hierarchy of the commits. So I can see what the parents are and how many different branches have been created. It's more simple and intuitive to look at a visual diagram.
