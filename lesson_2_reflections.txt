@@ -14,3 +14,7 @@ I think that branches can be really useful when the project is going in quite di
 
 -How do the diagrams help you visualize the branch structure?
 The diagrams help me visualize the branch structure by showing me the hierarchy of the commits. So I can see what the parents are and how many different branches have been created. It's more simple and intuitive to look at a visual diagram.
+
+-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging two branches is the summation of all commits in both branches. They're represented the way they are because they tie in multiple branches together.
+
